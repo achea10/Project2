@@ -1,70 +1,94 @@
-html, body{
-  height:100%;
-}
-
-body{
-  height:100vh;
-  background: url(../images/landing_page.jpeg);
-}
-
-
-
-
-#head_links{
-  margin: 10px;
-  float:right;  
-}
-
-a{
-  font-size: 1.4em;
-  color: gray;
-  opacity: .8;
-  text-decoration: none;
-
+nav {
+  background-color: lightgray;
+  font-size: 1.1em;
   font-family: 'Great Vibes', cursive;
+  margin-top: 4px;
+}
+
+#brand{
+  letter-spacing: 3px;
+  font-size: 2.5em;
+  float: left;
+
+  position: relative;
+  bottom: 2px;
+}
+
+li a{
+  font-size: 1.5em;
   font-weight: bold;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  color: pink;
 }
 
-a:hover{
-  opacity: 1;
-  color: #c0adb6;
+a:link, a:visisted {
+    text-decoration: none;
+}
+
+#login{
+  margin:auto;
+}
+
+.row {
+  display: inline-block;
+  margin: 10px 15px 10px 15px;
+  padding: 10px;
+}
+
+.navbar{
+  margin-bottom: 0px;
+}
+
+#headline{
+  width: 100%;
+  height: 30px;
+  background-color: black;
+}
+
+.thumbnail{
+  box-shadow: 0 0 5px black; 
+}
+
+.end{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: blue;
+}
+
+#checkout{
+  font-size: 1.3em;
+  
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 
 
-
-
-#branding{
+footer {
+  background-color: #333;
+  height: 200px;
+  width: 100%;
+  margin-top: 10px;
+  color: white;
   position: absolute;
-  width: 400px;
-  color: #c0adb6;
+}
+
+.column1 {
+  width: 30%;
   text-align: center;
-  top: 50%;
-
-  left: 50%;
-  margin: -50px 0 0 -200px;
+  padding: 2px;
+  margin: auto;
+  margin-left: 20px;
+  float: left;
 }
 
-#branding h1{
-  font-size: 5em;
-  font-family: 'Cinzel', serif;
-}
-
-
-
-
-
-button{
-  position: absolute;
-  width: 150px;
-  font-size: 1.2em;
-
-  top: 60%;
-  left: 50%;
-  margin: 130px 0 0 -75px;
-
-  border-radius: 25px;
-
-  background-color: #17a2b8;
+/* Clear floats after the columns */
+.column2 {
+  width: 30%;
+  text-align: center;
+  padding: 2px;
+  margin: auto;
+  float: right;
 }
