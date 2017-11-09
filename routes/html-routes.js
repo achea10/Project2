@@ -3,13 +3,13 @@ var path = require("path");
 module.exports = function(app) {
   
   app.get("/", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/views/home.html"));
+    res.sendFile(path.join(__dirname, "../views/html/home.html"));
   });
   app.get("/store", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/views/store.html"));
+    res.sendFile(path.join(__dirname, "../views/html/store.html"));
   });
   app.get("/shopping_cart", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/views.shopping_cart"));
+    res.sendFile(path.join(__dirname, "../views/html/shopping_cart.html"));
   });
   app.get("/checkout", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/views/checkout.html"));
