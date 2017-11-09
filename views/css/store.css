@@ -29,6 +29,14 @@ a:link, a:visisted {
   margin:auto;
 }
 
+
+#headline{
+  color: white;
+  text-shadow: 0 0 5px pink;
+}
+
+
+
 .row {
   display: inline-block;
   margin: 10px 15px 10px 15px;
@@ -91,4 +99,12 @@ footer {
   padding: 2px;
   margin: auto;
   float: right;
+}
+
+
+/* Exclusive "about us" styling */
+
+#myImg {
+  width: 100%;
+  margin: auto;
 }

@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Store Front</title>
-	<link rel="stylesheet" href="../css/reset.css">
+<!-- 	<link rel="stylesheet" href="../css/reset.css"> -->
 	<link rel="stylesheet" href="../css/home.css">
 	<!-- FONTS  -->
 	<link href="https://fonts.googleapis.com/css?family=Cinzel|Great+Vibes" rel="stylesheet">
@@ -20,12 +20,21 @@
 	<div id="branding"><h1>Beautitude</h1></div>
 
 	<div id="login">
-		<form action="">
-			<input type="text" placeholder="user"><br>
-			<input type="password" placeholder="password"><br>
-			<button type="submit">START SHOPPING!</button>
+		<form id="logform" action="/store">
+			<input id="name" type="text" placeholder="user"><br>
+			<input id="pass" type="password" placeholder="password"><br>
+			<button id="formsub" type="submit">START SHOPPING!</button>
 		</form>
 	</div>
+
+
+<!--  jQuery  -->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+<script src="../js/logic.js"></script>
 
 </body>
 </html>
