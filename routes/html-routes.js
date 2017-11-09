@@ -5,6 +5,9 @@ module.exports = function(app) {
   app.get("/", function(req, res) {
     res.sendFile(path.join(__dirname, "../views/html/home.html"));
   });
+  app.get("/home", function(req, res) {
+    res.sendFile(path.join(__dirname, "../views/html/home.html"));
+  });
   app.get("/store", function(req, res) {
     res.sendFile(path.join(__dirname, "../views/html/store.html"));
   });

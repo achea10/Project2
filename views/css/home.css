@@ -59,6 +59,10 @@ a:hover{
 
 	left: 50%;
 	margin-left: -100px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 input{
